@@ -1,3 +1,3 @@
-# travis-broken-example
+# EBEXTENSIONS
 
 Added actual ebextensions
