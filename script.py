@@ -8,7 +8,6 @@ def zipdir(path, ziph):
         for file in files:
             ziph.write(os.path.join(root, file))
 
-
 zipf = zipfile.ZipFile('ebextensions.zip', 'w')
 zipdir('./ebextensions', zipf)
 zipf.close()
